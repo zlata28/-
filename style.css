@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+.body1{
+    width: 1512px;
+    height: 2680px;
+    border: 1px solid beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1{
+    width: 1512px;
+    height: 132px;
+    border: 1px solid beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.lev{
+    margin-left: 40px;
+    display: flex;
+    gap: 24px;
+}
+.seridina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prav{
+    margin-right: 40px;
+}
+.pod{
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+}
+.pod a:last-child{
+    color: red;
+}
+
+.box2{
+    height: 92px;
+    border: 1px solid beige;
+}
+.box2 p{
+    margin-left: 40px;
+    color: gray;
+ 
+    
+}
+.box2 h2{
+    display: flex;
+    justify-content: center;
+}
