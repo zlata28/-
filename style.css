@@ -85,7 +85,7 @@ body a{
     margin-right: auto;
     border: 1px solid;
     display: flex;
-    justify-content: ;
+    flex-direction: column;
     align-items: center;
 }
 .blok1{
