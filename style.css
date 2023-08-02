@@ -54,13 +54,71 @@ body a{
     height: 92px;
     border: 1px solid beige;
 }
-.box2 p{
-    margin-left: 40px;
+.box2 a,img{
+    margin-left: 20px;
     color: gray;
- 
-    
 }
 .box2 h2{
     display: flex;
     justify-content: center;
+    padding-bottom: 2px;
+}
+
+.box3{
+    height: 80px;
+    border: 1px solid beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.bl3{ 
+    margin-left: 15px;  
+}
+.bl3a{
+    margin-right: 15px;
+}
+
+.box4{
+    width: 1432px;
+    height: 1713px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+.blok1{
+    width: 1430px;
+    height: 546px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.k1{
+    width: 358px;
+    height: 546px;
+}
+.br{
+    height: 420px;
+}
+.brend{
+    height: 126px;
+}
+
+.blok2{
+    width: 358px;
+    height: 546px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.blok3{
+    width: 358px;
+    height: 546px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+    
 }
