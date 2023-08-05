@@ -11,7 +11,7 @@ body a{
 }
 .body1{
     width: 1512px;
-    height: 2680px;
+    height: 2200px;
     border: 1px solid beige;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,7 @@ body a{
 .box1{
     width: 1512px;
     height: 132px;
-    border: 1px solid beige;
+    border: 0 solid;
     display: flex;
     justify-content: space-between;
     align-items: center;    
@@ -66,7 +66,7 @@ body a{
 
 .box3{
     height: 80px;
-    border: 1px solid beige;
+    border: 0 solid;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -83,20 +83,20 @@ body a{
     height: 1713px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid;
+    border: 0 solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .blok1{
-    width: 1430px;
+    width: 1432px;
     height: 546px;
-    border: 1px solid;
+    border: 0 solid;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .k1{
-    width: 358px;
+    width: 25%;
     height: 546px;
 }
 .kar{
@@ -106,21 +106,138 @@ body a{
 .brend{
     width: 358px;
     height: 126px;
+    text-align: center;
 }
 
 .blok2{
-    width: 358px;
+    width: 1432px;
     height: 546px;
-    border: 1px solid;
+    border: 0 solid;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     
 }
-.blok3{
+.k2{
     width: 358px;
     height: 546px;
-    border: 1px solid;
+}
+.kar2{
+    width: 358px;
+    height: 420px;
+}
+.brend2{
+    width: 358px;
+    height: 126px;
+    text-align: center;
+}
+
+.blok3{
+    width: 1432px;
+    height: 546px;
+    border: 0 solid;
     display: flex;
-    flex-direction: row-reverse;
-    
+    flex-direction: row;
+}
+.k3{
+    width: 358px;
+    height: 546px;
+}
+.kar3{
+    width: 358px;
+    height: 420px;
+}
+.brend3{
+    width: 358px;
+    height: 126px;
+    text-align: center;
+}
+.podmenu{
+    width: 1432px;
+    height: 70px;
+    border: 0px solid;
+    display: flex;
+    align-items: center;    
+}
+.nomer{
+    margin-left: 35px;
+    color: grey;
+}
+.perehod{
+    padding: 600px;
+}    
+footer{
+    width: 1512px;
+    height: 663px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box5{
+    width: 1512px;
+    height: 583px;
+    margin-top: 80px;
+    border: 0 solid;
+    background: ghostwhite;
+}
+.p{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 24px;
+}
+.email{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 54px;
+    width: 600px;
+    color: dimgray;
+}
+button{
+    margin-left: 80px;
+    width: 143px;
+    height: 54px;
+    color: white;
+    background-color: black;
+}
+.blok{
+    width: 1512px;
+    height: 278px;
+    padding: 20px 40px 0 40px;
+    display: flex;
+}
+.bloks{
+    width: 20%;
+    display: block;
+    flex-direction: row;
+}
+h3{
+    color: dimgray;
+}
+.bloks a{
+    display: flex;
+    margin-top: 15px
+}
+.info{
+    display: flex;
+    width: 1512px;
+    height: 64px;
+    border: 0 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 70px 40px 0 40px;
+}
+.ceti img{
+    width: 180px;
+    margin-left: -5px;
+    margin-top: 15px;
+}
+.t{
+    color: darkgray;
+    margin-right: auto;
+    margin-top: auto;
+}
+.kart{
+   margin-top: auto;
+   margin-right: 40px;
 }
