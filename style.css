@@ -80,6 +80,7 @@ body a{
 
 .box4{
     width: 1432px;
+    min-width: 30%;
     height: 1713px;
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +88,11 @@ body a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+}
+.box4 img{
+    min-width: 25%;
+    height: auto;
 }
 .blok1{
     width: 1432px;
@@ -170,6 +176,7 @@ footer{
     height: 663px;
     margin-left: auto;
     margin-right: auto;
+    background-color: antiquewhite;
 }
 
 .box5{
@@ -177,10 +184,9 @@ footer{
     height: 583px;
     margin-top: 80px;
     border: 0 solid;
-    background: ghostwhite;
 }
+
 .p{
-    margin-top: 20px;
     margin-left: 40px;
     height: 24px;
 }
@@ -192,7 +198,7 @@ footer{
     color: dimgray;
 }
 button{
-    margin-left: 80px;
+    margin-left: 20px;
     width: 143px;
     height: 54px;
     color: white;
@@ -240,4 +246,8 @@ h3{
 .kart{
    margin-top: auto;
    margin-right: 40px;
+}
+
+@media screen and (max-width: 1200px){
+    .lev .seridina .pod{display: none;}
 }
